@@ -1,0 +1,44 @@
+
+.feedback-card {
+    width: 50%;
+    height: auto;
+    margin-right: 35px;
+}
+
+.feedback-card .upper-section {
+    margin-bottom: 20px;
+}
+
+.feedback-card .upper-section .title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.feedback-card .upper-section .message {
+    color: grey
+}
+
+.feedback-card .lower-section {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.feedback-card .lower-section .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.feedback-card .lower-section .name {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.feedback-card .lower-section .profession {
+    font-size: 14px;
+    color: grey;
+}

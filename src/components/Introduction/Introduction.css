@@ -1,0 +1,113 @@
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    max-width: var(--max-width);
+}
+
+.introduction .jumbo-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introduction .jumbo-banner p {
+    font-size: 60px;
+    margin-top: 15px;
+}
+
+.introduction .jumbo-banner p span {
+    color: var(--secondary-color);
+}
+
+.introduction .get-in-touch {
+    background-color: var(--secondary-color);
+    outline: none;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 50px;
+    border: none;
+    transition: box-shadow 0.3s ease;
+}
+.introduction .get-in-touch:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px 3px rgba(11, 207, 131, 0.8);
+}
+
+.introduction .platform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.introduction .platform p {
+    margin-bottom: 30px;
+}
+
+.introduction .platform img {
+    max-width: var(--max-width);
+}
+
+.introduction .divider {
+    margin-bottom: 50px;
+    max-width: var(--max-width);
+}
+
+.introduction .counter {
+    display: flex;
+    width: var(--max-width);
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.introduction .counter .count {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.introduction .counter .count h3 {
+    font-size: 46px;
+}
+
+.introduction .counter .count p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.introduction .about {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    display: flex;
+    max-width: 900px;
+    align-items: center;
+    justify-content: center;
+}
+
+.introduction .about .about-text  {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.introduction .about .about-text .sub-heading {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.introduction .about .about-text p {
+    line-height: 22px;
+}

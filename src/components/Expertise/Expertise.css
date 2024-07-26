@@ -1,0 +1,27 @@
+
+.expertise {
+    max-width: var(--max-width);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.expertise .expertise-heading {
+    margin: 50px;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.expertise .expertise-cards {
+    display: grid;
+    margin-bottom: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    perspective: 1000px;
+    /* width: 80%;
+    max-width: var(); */
+}

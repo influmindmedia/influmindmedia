@@ -1,0 +1,63 @@
+
+.expectation {
+    background-color: black;
+}
+
+.expectation-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    margin: 0 auto;
+    padding: 50px 20px;
+    max-width: var(--max-width);
+}
+
+.expectation .expectation-content .expectation-heading {
+    font-size: 32px;
+}
+
+.expectation .expectation-content .data-section {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.expectation .expectation-content .data-section .problems {
+    width: 40%;
+    padding: 30px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+    backdrop-filter: blur(10px); /* Glassy blur effect */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Slightly transparent border */
+}
+
+.expectation .expectation-content .data-section .problems h6 {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: red;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.expectation .expectation-content .data-section .solutions {
+    width: 50%;
+    padding: 30px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+    backdrop-filter: blur(10px); /* Glassy blur effect */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Slightly transparent border */
+}
+
+.expectation .expectation-content .data-section .solutions h6 {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: green;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,73 @@
+
+.expertise-card {
+    width: 300px;
+    height: 320px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+}
+.expertise-card:hover {
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.expertise-card .front-side,
+.expertise-card .back-side {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.expertise-card .front-side img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* This ensures the image is resized and cropped */
+}
+
+.expertise-card .front-side .title {
+    position: absolute;
+    width: 100%;
+    padding: 10px 20px;
+    bottom: 0px;
+    font-size: 20px;
+    font-weight: 500;
+    backdrop-filter: blur(50px);
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.expertise-card .back-side {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: rotateY(180deg);
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    overflow: hidden;
+}
+
+.expertise-card .back-side .background-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.expertise-card .back-side .back-content {
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: start;
+}
+
+.expertise-card .back-side .back-content .title {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}

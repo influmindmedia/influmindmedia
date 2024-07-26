@@ -1,0 +1,51 @@
+
+.header {
+    display: flex;
+    margin: 0 auto;
+    max-width: var(--max-width);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .left-section {
+    
+}
+
+.header .right-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header .right-section .feature-button {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 25px;
+    transition: text-shadow 0.2s ease;
+}
+.header .right-section .feature-button:hover {
+    cursor: pointer;
+    text-shadow: 0 0 10px rgba(11, 207, 131, 0.8);
+}
+
+.header .right-section .contact-button {
+    margin-left: 35px;
+    outline: none;
+    border: 2px solid whitesmoke;
+    padding: 10px 30px;
+    border-radius: 25px;
+    background: transparent;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+.header .right-section .contact-button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px 3px rgba(11, 207, 131, 0.8);
+}

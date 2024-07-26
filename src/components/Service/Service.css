@@ -1,0 +1,42 @@
+
+.service {
+    background-image: url("../../assets/dotted.svg");
+    background-position: -50px -150px;
+    background-repeat: no-repeat;
+    background-size: fit;
+    /* filter: blur(8px); */
+    
+    max-width: var(--max-width);
+    padding: 50px 0px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 2;
+}
+
+.service .text-section {
+    width: 30%;
+    padding: 30px;
+}
+
+.service .text-section .service-heading {
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.service .service-cards {
+    /* width: 30%; */
+    padding: 30px;
+    display: flex;
+}
+
+.service .service-cards .left-section {
+    /* width: 30%; */
+    margin-top: 80px;
+}
+
+.service .service-cards .right-section {
+    /* width: 30%; */
+}

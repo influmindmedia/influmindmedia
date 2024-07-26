@@ -1,0 +1,20 @@
+
+.app {
+    
+}
+
+.introduction-about {
+    width: 100vw;
+    background-color: var(--primary-color);
+    color: whitesmoke;
+}
+
+.query-footer {
+    padding: 50px;
+    width: 100vw;
+    background-color: var(--primary-color);
+    color: whitesmoke;
+}
+.query-footer .divider {
+    width: 100%;
+}
