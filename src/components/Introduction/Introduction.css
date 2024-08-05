@@ -36,6 +36,8 @@
     font-weight: 500;
     border-radius: 50px;
     border: none;
+    color: var(--primary-color);
+    text-decoration: none;
     transition: box-shadow 0.3s ease;
 }
 .introduction .get-in-touch:hover {

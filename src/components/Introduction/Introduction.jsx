@@ -23,7 +23,14 @@ const Introduction = () => {
             </h1>
 
             {/* Get in Touch */}
-            <button className="get-in-touch">Get in Touch</button>
+            <a
+                href="https://calendly.com/influmindmedia/joinus"
+                className="get-in-touch"
+                rel="noopener noreferrer"
+                target="_blank"
+            >
+                Get in Touch
+            </a>
 
             {/* Platforms */}
             <div className="platform">
