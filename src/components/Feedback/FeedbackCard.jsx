@@ -2,7 +2,7 @@
 
 import "./FeedbackCard.css"
 
-const FeedbackCard = ({ _name, _profession, _title, _message, _avatar }) => {
+const FeedbackCard = ({ _name, _profession, _title, _message, _avatar, _instagram_link }) => {
 
     return (
         <div className="feedback-card">
@@ -13,17 +13,21 @@ const FeedbackCard = ({ _name, _profession, _title, _message, _avatar }) => {
                 {/* Message */}
                 <p className="message">{_message}</p>
             </div>
-            <div className="lower-section">
+            <a
+                href={_instagram_link}
+                className="lower-section"
+                rel="noopener noreferrer"
+                target="_blank"
+            >
                 {/* Avatar */}
                 <img src={_avatar} alt={_name} className="avatar" />
 
                 {/* Name Section */}
                 <div className="name-section">
-
                     <p className="name">{_name}</p>
                     <p className="profession">{_profession}</p>
                 </div>
-            </div>
+            </a>
         </div>
     )
 }

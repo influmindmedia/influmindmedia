@@ -1,7 +1,8 @@
 
 import FeedbackCard from "./FeedbackCard"
 
-import SampleAvatar from "../../assets/sample-avatar.png"
+import NiladriAvatar from "../../assets/niladri-avatar.png"
+import TulikaAvatar from "../../assets/tulika-avatar.png"
 
 import "./Feedback.css"
 
@@ -15,23 +16,25 @@ const Feedback = () => {
             <div className="feedback-list">
                 <FeedbackCard
                     key={"niladri_das"}
-                    _avatar={SampleAvatar}
+                    _avatar={NiladriAvatar}
                     _message={
-                        "Thanks to Influmind Media Agency, my Instagram content went viral with millions of views! Their expertise in growth strategy is unmatched. Highly recommend!"
+                        "Millions of people have viewed my Instagram content because to Influmind Media Agency! They are unparalleled in their growth plan knowledge. Strongly advised!"
                     }
                     _name={"Niladri Das"}
                     _profession={"Influencer"}
-                    _title={"Niladri From India went viral from scratch!"}
+                    _title={"India's Niladri became viral right away!"}
+                    _instagram_link={"https://www.instagram.com/niladridasofficial/"}
                 />
                 <FeedbackCard
                     key={"tulika-chatterjee"}
-                    _avatar={SampleAvatar}
+                    _avatar={TulikaAvatar}
                     _message={
-                        "With Influmind Media Agency's expertise, my Instagram content went viral, amassing millions of views! Their growth strategies are unparalleled. Highly recommend!"
+                        "Thanks to the skills of Influmind Media Agency, my Instagram post received thousands of views after becoming viral! Their expansion tactics are unmatched. Extremely recommend!"
                     }
                     _name={"Tulika Chatterjee"}
                     _profession={"Influencer"}
                     _title={"Tulika from India went viral from scratch!"}
+                    _instagram_link={"https://www.instagram.com/miss_chatterjeeee/"}
                 />
             </div>
         </div>

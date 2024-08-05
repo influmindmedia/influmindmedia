@@ -11,17 +11,17 @@ import ExpertiseCardBackground from "../../assets/expertise-card-background.jpg"
 import "./Expertise.css"
 
 const strategy_content =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas sodales facilisis. Curabitur in egestas justo. Fusce sed mi leo."
+    "Developing a winning strategy with Influmind Media involves targeted content creation, strategic influencer partnerships, data-driven campaign management, and optimized ad placements. We enhance brand identity, engage audiences, and drive measurable growth."
 const content_research_content =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas sodales facilisis. Curabitur in egestas justo. Fusce sed mi leo."
+    "Content research at Influmind Media involves analyzing trends, audience preferences, and competitor strategies to create relevant and engaging content. We ensure your brand stays ahead by consistently delivering valuable and compelling material to your audience."
 const story_telling_content =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas sodales facilisis. Curabitur in egestas justo. Fusce sed mi leo."
+    "At Influmind Media, storytelling is at the heart of our strategy. We craft compelling narratives that resonate with your audience, build emotional connections, and enhance your brand identity. Our stories captivate, engage, and drive meaningful interactions."
 const video_editing_content =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas sodales facilisis. Curabitur in egestas justo. Fusce sed mi leo."
+    "At Influmind Media, our video editing services transform raw footage into captivating content. We enhance visuals, perfect audio, and add creative effects to produce videos that engage and inspire your audience, elevating your brand's digital presence."
 const influencers_margketing_content =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas sodales facilisis. Curabitur in egestas justo. Fusce sed mi leo."
+    "Influmind Media excels in influencer marketing by connecting your brand with the right influencers to amplify your reach. We manage collaborations, create authentic content, and track performance to ensure impactful and results-driven campaigns that resonate with your target audience."
 const graphic_design_content =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas sodales facilisis. Curabitur in egestas justo. Fusce sed mi leo."
+    "Influmind Media's graphic design with UI/UX expertise creates visually stunning and user-friendly designs. We craft compelling visuals and intuitive interfaces that enhance user experience, ensuring your brand captivates and retains its audience effectively."
 
 const Expertise = () => {
     return (

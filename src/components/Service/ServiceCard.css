@@ -7,26 +7,25 @@
     padding: 30px;
     margin-left: 30px;
     margin-bottom: 30px;
-    border: 1px solid grey;
+    background-color: white;
+    border: 1px solid var(--custom-light-grey-color);
     border-radius: 20px;
 
-    background: rgba(255, 255, 255, 0.3); /* Semi-transparent white background */
-    backdrop-filter: blur(10px); /* Glassy blur effect */
-    border: 1px solid rgba(211, 211, 211, 0.6); /* Light grey border */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(211, 211, 211, 0.2); /* Light grey drop shadow and border shadow */
-    color: #333;
-    text-align: center;
+    /* background: rgba(255, 255, 255, 0.3); /* Semi-transparent white background */
+    /* backdrop-filter: blur(10px); /* Glassy blur effect */
+    /* border: 1px solid rgba(211, 211, 211, 0.6); /* Light grey border */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(211, 211, 211, 0.2); /* Light grey drop shadow and border shadow */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
 }
 .service-card:hover {
     cursor: pointer;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 0 0 2px rgba(211, 211, 211, 0.8);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 0 0 0.2px rgba(211, 211, 211, 0.8);
     transform: translateY(-10px)
 }
 
 .service-card .service-logo {
     width: 100px;
-    height: auto;
+    height: 100px;
     margin-bottom: 30px;
 }
 
@@ -34,9 +33,10 @@
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 15px;
+    color: var(--primary-color)
 }
 
 .service-card .service-detail {
     font-weight: 400;
-    color: grey;
+    color: var(--custom-grey-color);
 }

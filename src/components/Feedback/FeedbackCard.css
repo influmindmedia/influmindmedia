@@ -2,6 +2,7 @@
 .feedback-card {
     width: 50%;
     height: auto;
+    padding: 0px 30px;
     margin-right: 35px;
 }
 
@@ -20,10 +21,11 @@
 }
 
 .feedback-card .lower-section {
-
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    text-decoration: none;
+    color: var(--primary-color);
 }
 
 .feedback-card .lower-section .avatar {

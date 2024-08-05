@@ -62,16 +62,17 @@ const Introduction = () => {
                 <div className="about-text">
                     <h5 className="sub-heading">About Influmind</h5>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed egestas sodales facilisis. Curabitur in egestas
-                        justo. Fusce sed mi leo. Etiam feugiat justo bibendum
-                        velit venenatis, vel facilisis diam maximus. Nullam eget
-                        nunc fringilla, aliquet urna eget, mollis magna. Nam id
-                        nisi vulputate, dignissim arcu nec, fermentum libero.
-                        Cras rutrum, metus eu efficitur lacinia, arcu turpis
-                        rhoncus massa, nec cursus turpis nunc vitae purus.
-                        Vestibulum ante ipsum primis in faucibus orci luctus et
-                        ultrices posuere cubilia curae;
+                        Welcome to Influmind Media, where creativity meets
+                        influence and brands thrive in the digital landscape. We
+                        specialize in crafting compelling social media
+                        strategies for influencers and brands alike, leveraging
+                        our expertise in account management, influencer
+                        marketing, and bespoke content creation. From designing
+                        captivating visuals to expert video editing, we empower
+                        our clients to stand out and succeed in today&apos;s
+                        competitive market. Join us on a journey where
+                        innovation drives engagement, and every story is told
+                        with impact.
                     </p>
                 </div>
             </div>

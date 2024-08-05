@@ -12,7 +12,7 @@
 .expertise .expertise-heading {
     margin: 50px;
     font-size: 32px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .expertise .expertise-cards {
@@ -22,6 +22,4 @@
     grid-template-rows: repeat(2, 1fr);
     gap: 20px;
     perspective: 1000px;
-    /* width: 80%;
-    max-width: var(); */
 }

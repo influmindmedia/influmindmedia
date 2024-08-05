@@ -12,15 +12,15 @@
     flex-direction: column;
     align-items: center;
     border-radius: 20px;
-    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
-    backdrop-filter: blur(10px); /* Glassy blur effect */
+    background: rgba(255, 255, 255, 0.10); /* Semi-transparent white background */
+    backdrop-filter: blur(50px); /* Glassy blur effect */
     border: 1px solid rgba(255, 255, 255, 0.2); /* Slightly transparent border */
     color: whitesmoke;
 }
 
 .query .glassy-container h5 {
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 700;
     margin-top: 30px;
     margin-bottom: 12px;
 }

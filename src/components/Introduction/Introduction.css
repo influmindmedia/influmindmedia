@@ -16,11 +16,13 @@
 }
 
 .introduction .jumbo-banner p {
+    font-family: "Montserrat";
     font-size: 60px;
     margin-top: 15px;
 }
 
 .introduction .jumbo-banner p span {
+    font-family: "Bricolage Grotesque";
     color: var(--secondary-color);
 }
 
@@ -50,10 +52,12 @@
 }
 
 .introduction .platform p {
+    color: var(--custom-light-grey-color);
     margin-bottom: 30px;
 }
 
 .introduction .platform img {
+    width: 95%;
     max-width: var(--max-width);
 }
 

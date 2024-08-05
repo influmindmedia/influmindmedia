@@ -4,7 +4,6 @@
     background-position: -50px -150px;
     background-repeat: no-repeat;
     background-size: fit;
-    /* filter: blur(8px); */
     
     max-width: var(--max-width);
     padding: 50px 0px;
@@ -13,16 +12,19 @@
     align-items: center;
     justify-content: space-evenly;
     z-index: 2;
+
+    /* background: url("../../assets/arrow-service.png") no-repeat bottom center/cover; */
 }
 
 .service .text-section {
     width: 30%;
     padding: 30px;
+
 }
 
 .service .text-section .service-heading {
     font-size: 42px;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 20px;
 }
 
@@ -34,7 +36,7 @@
 
 .service .service-cards .left-section {
     /* width: 30%; */
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 .service .service-cards .right-section {

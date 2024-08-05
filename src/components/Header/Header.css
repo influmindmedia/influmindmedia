@@ -8,7 +8,12 @@
 }
 
 .header .left-section {
-    
+    display: flex;
+    align-items: center;
+}
+
+.header .left-section .influmind-logo {
+    width: 250px;
 }
 
 .header .right-section {

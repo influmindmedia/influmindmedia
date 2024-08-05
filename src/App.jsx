@@ -1,3 +1,6 @@
+
+import { Element } from "react-scroll"
+
 import Expectation from "./components/Expectation/Expectation"
 import Expertise from "./components/Expertise/Expertise"
 import Feedback from "./components/Feedback/Feedback"
@@ -23,7 +26,9 @@ const App = () => {
             </div>
 
             {/* Services */}
-            <Service />
+            <Element name="service">
+                <Service />
+            </Element>
 
             {/* Expectations */}
             <Expectation />
@@ -32,11 +37,15 @@ const App = () => {
             <Expertise />
 
             {/* Feedback */}
-            <Feedback />
+            <Element name="work">
+                <Feedback />
+            </Element>
 
             <div className="query-footer">
                 {/* Query */}
-                <Query />
+                <Element name="query">
+                    <Query />
+                </Element>
 
                 <img src={Divider} alt="divider" className="divider" />
 

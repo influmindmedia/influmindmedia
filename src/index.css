@@ -1,13 +1,30 @@
-* {
+*, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-family: sans-serif;
+}
+
+/* Hide scrollbar for Webkit browsers */
+*::-webkit-scrollbar {
+    display: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat";
+}
+
+p {
+    font-family: "Bricolage Grotesque";
 }
 
 :root {
-    --primary-color: black;
-    --secondary-color: lightgreen;
+    --primary-color: #121B1C;
+    --secondary-color: #0BCF83;
+    --ternary-color: #87E468;
+    --custom-grey-color: #868686;
+    --custom-light-grey-color: #C5C5C5;
+    --custom-red-color: #FF3D3D;
     --font-size-base: 16px;
     --font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
 

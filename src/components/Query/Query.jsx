@@ -1,7 +1,7 @@
 
-import Logo from "../../assets/header-logo.svg"
-import InstagramLogo from "../../assets/instagram-social.svg"
-import YoutubeLogo from "../../assets/youtube-social.svg"
+import Logo from "../../assets/query-logo.svg"
+// import InstagramLogo from "../../assets/instagram-social.svg"
+// import YoutubeLogo from "../../assets/youtube-social.svg"
 import LinkedInLogo from "../../assets/linkedin-social.svg"
 
 import "./Query.css"
@@ -17,22 +17,25 @@ const Query = () => {
 
             {/* Social */}
             <div className="social">
-
                 {/* Logo */}
                 <img src={Logo} alt="influmind" className="logo" />
 
                 {/* Social Links */}
                 <div className="social-links">
-
                     {/* Instagram */}
-                    <img src={InstagramLogo} alt="instagram" />
+                    {/* <img src={InstagramLogo} alt="instagram" /> */}
 
                     {/* Youtube */}
-                    <img src={YoutubeLogo} alt="youtube" />
+                    {/* <img src={YoutubeLogo} alt="youtube" /> */}
 
                     {/* LinkedIn */}
-                    <img src={LinkedInLogo} alt="linkedin" />
-
+                    <a
+                        href="https://www.linkedin.com/company/influmindmedia"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                    >
+                        <img src={LinkedInLogo} alt="linkedin" />
+                    </a>
                 </div>
             </div>
         </div>

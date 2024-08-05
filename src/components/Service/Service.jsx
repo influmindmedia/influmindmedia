@@ -2,9 +2,9 @@
 import ServiceCard from "./ServiceCard"
 
 import InstagramLogo from "../../assets/instagram_logo.svg"
-import GoogleAdsLogo from "../../assets/google_ads_logo.svg"
-import YouTubeLogo from "../../assets/youtube_logo.svg"
-import LinkedInLogo from "../../assets/linkedIn_logo.svg"
+import GoogleAdsLogo from "../../assets/google_ads_logo.png"
+import YouTubeLogo from "../../assets/youtube_logo.png"
+import LinkedInLogo from "../../assets/linked_in_logo.png"
 
 import "./Service.css"
 
@@ -18,12 +18,12 @@ const Service = () => {
                     Our Services
                 </h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    egestas sodales facilisis. Curabitur in egestas justo. Fusce
-                    sed mi leo. Etiam feugiat justo bibendum velit venenatis,
-                    vel facilisis diam maximus. Nullam eget nunc fringilla,
-                    aliquet urna eget, mollis magna. Nam id nisi vulputate,
-                    dignissim arcu nec, fermentum libero.
+                    At Influmind Media, we specialize in social media
+                    management, influencer marketing, creative content
+                    creation—including design and video editing—and strategic
+                    brand consulting. Partner with us to elevate your digital
+                    presence and achieve your business goals with precision and
+                    creativity.
                 </p>
             </div>
 
@@ -35,7 +35,9 @@ const Service = () => {
                         key={"instagram"}
                         _name={"Instagram"}
                         _logo={InstagramLogo}
-                        _detail={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas sodales facilisis. Curabitur in egestas justo. Fusce sed mi leo."}
+                        _detail={
+                            "Unlock Instagram growth with Influmind Media. We optimize content engage audiences, and maximize visibility for impactful results."
+                        }
                     />
 
                     {/* Google Ads */}
@@ -43,7 +45,9 @@ const Service = () => {
                         key={"google-ads"}
                         _name={"Google Ads"}
                         _logo={GoogleAdsLogo}
-                        _detail={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas sodales facilisis. Curabitur in egestas justo. Fusce sed mi leo."}
+                        _detail={
+                            "Scale your business with Influmind Media's Google Ads expertise. We optimize campaigns, maximize ROI, and drive targeted traffic for sustainable growth."
+                        }
                     />
                 </div>
 
@@ -53,7 +57,9 @@ const Service = () => {
                         key={"youtube"}
                         _name={"YouTube"}
                         _logo={YouTubeLogo}
-                        _detail={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas sodales facilisis. Curabitur in egestas justo. Fusce sed mi leo."}
+                        _detail={
+                            "Transform your YouTube channel with Influmind Media. We enhance content, optimize SEO, and engage viewers to drive growth and maximize impact."
+                        }
                     />
 
                     {/* LinkedIn */}
@@ -61,7 +67,9 @@ const Service = () => {
                         key={"linkedin"}
                         _name={"LinkedIn"}
                         _logo={LinkedInLogo}
-                        _detail={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas sodales facilisis. Curabitur in egestas justo. Fusce sed mi leo."}
+                        _detail={
+                            "Elevate your LinkedIn presence with Influmind Media. We optimize profiles, curate engaging content, and connect you with industry leaders for strategic growth."
+                        }
                     />
                 </div>
             </div>
