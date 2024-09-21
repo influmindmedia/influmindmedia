@@ -54,7 +54,7 @@ const Introduction = () => {
                 </div>
 
                 <div className="count">
-                    <h3 id="counter">30M+</h3>
+                    <h3 id="counter">25</h3>
                     <p>Happy Clients</p>
                 </div>
             </div>

@@ -1,4 +1,3 @@
-
 import Logo from "../../assets/query-logo.svg"
 // import InstagramLogo from "../../assets/instagram-social.svg"
 // import YoutubeLogo from "../../assets/youtube-social.svg"
@@ -12,7 +11,14 @@ const Query = () => {
             <div className="glassy-container">
                 <h5>Any Queries?</h5>
                 <p>Contact our expert and solve any kind of queries</p>
-                <button className="get-in-touch">Get in Touch</button>
+                <a
+                    href="https://calendly.com/influmindmedia/joinus"
+                    className="get-in-touch"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                >
+                    Get in Touch
+                </a>
             </div>
 
             {/* Social */}

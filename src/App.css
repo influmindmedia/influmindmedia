@@ -7,6 +7,10 @@
     width: 100vw;
     background-color: var(--primary-color);
     color: whitesmoke;
+    background-image: url("./assets/banner-background.png"), url("./assets/banner_divider-background.png"), url("./assets/banner_logo-background.png");
+    background-size: 80vw, 35vh, cover;
+    background-position: top left, right, bottom;
+    background-repeat: no-repeat, no-repeat, no-repeat;
 }
 
 .query-footer {
@@ -14,6 +18,10 @@
     width: 100vw;
     background-color: var(--primary-color);
     color: whitesmoke;
+    background-image: url("./assets/query_footer-background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .query-footer .divider {
     width: 100%;
