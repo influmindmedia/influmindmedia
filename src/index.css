@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,7 +12,12 @@
     display: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Montserrat";
 }
 
@@ -19,14 +26,14 @@ p {
 }
 
 :root {
-    --primary-color: #121B1C;
-    --secondary-color: #0BCF83;
-    --ternary-color: #87E468;
+    --primary-color: #121b1c;
+    --secondary-color: #0bcf83;
+    --ternary-color: #87e468;
     --custom-grey-color: #868686;
-    --custom-light-grey-color: #C5C5C5;
-    --custom-red-color: #FF3D3D;
+    --custom-light-grey-color: #c5c5c5;
+    --custom-red-color: #ff3d3d;
     --font-size-base: 16px;
-    --font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+    --font-family: "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
 
     --max-width: 1200px;
 }

@@ -23,6 +23,20 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .query-footer .divider {
     width: 100%;
+}
+
+/* Styles for extra small devices */
+@media (max-width: 576px) {
+    
+    .query-footer {
+        padding: 30px;
+        padding-top: 50px;
+    }
+
+    .query-footer .divider {
+        display: none;
+    }
 }

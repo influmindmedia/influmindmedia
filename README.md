@@ -1,8 +1,17 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Notes
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Breakpoints
+
+- Extra small devices (phones) `576px`
+- Small devices (tablets) `768px`
+- Medium devices (small laptops) `992px`
+- Large devices (desktops) `1200px`
+- Extra large devices (large desktops) `1400px`
+
+## TODOs
+
+- Implement all animations
+- Make Tab friendly

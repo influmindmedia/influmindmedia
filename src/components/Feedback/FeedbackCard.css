@@ -1,4 +1,3 @@
-
 .feedback-card {
     width: 50%;
     height: auto;
@@ -17,7 +16,7 @@
 }
 
 .feedback-card .upper-section .message {
-    color: grey
+    color: grey;
 }
 
 .feedback-card .lower-section {
@@ -43,4 +42,12 @@
 .feedback-card .lower-section .profession {
     font-size: 14px;
     color: grey;
+}
+
+/* Styles for extra small devices */
+@media (max-width: 576px) {
+    .feedback-card {
+        padding: 0px;
+        width: 100%;
+    }
 }

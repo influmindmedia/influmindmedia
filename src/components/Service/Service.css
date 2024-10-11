@@ -42,3 +42,35 @@
 .service .service-cards .right-section {
     /* width: 30%; */
 }
+
+/* Styles for extra small devices */
+@media (max-width: 576px) {
+    
+    .service {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service .text-section {
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .service .text-section .service-heading {
+        text-align: center;
+    }
+
+    .service .service-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service .service-cards .left-section {
+        margin: 0;
+    }
+
+    .service .service-cards .service-card {
+        width: 100%;
+        margin-left: 0;
+    }
+}

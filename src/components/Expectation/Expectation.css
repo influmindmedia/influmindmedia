@@ -87,3 +87,27 @@ box-shadow: 0 0 5px 2px rgba(255, 61, 61, 0.6),
             0 0 15px 4px rgba(11, 207, 131, 0.2);
 
 }
+
+/* Styles for extra small devices */
+@media (max-width: 576px) {
+
+    .expectation .expectation-content .expectation-heading {
+        text-align: center;
+    }
+
+    .expectation .expectation-content .data-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .expectation .expectation-content .data-section .problems {
+        width: 100%;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    .expectation .expectation-content .data-section .solutions {
+        width: 100%;
+        padding: 20px;
+    }
+}

@@ -23,3 +23,11 @@
     gap: 20px;
     perspective: 1000px;
 }
+
+/* Styles for extra small devices */
+@media (max-width: 576px) {
+    .expertise .expertise-cards {
+        display: flex;
+        flex-direction: column;
+    }
+}

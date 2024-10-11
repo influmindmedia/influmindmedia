@@ -101,7 +101,7 @@
     justify-content: center;
 }
 
-.introduction .about .about-text  {
+.introduction .about .about-text {
     margin-left: 50px;
     display: flex;
     flex-direction: column;
@@ -116,4 +116,87 @@
 
 .introduction .about .about-text p {
     line-height: 22px;
+}
+
+/* Styles for extra small devices */
+@media (max-width: 576px) {
+
+    .introduction {
+        max-width: 576px;
+    }
+
+    .introduction .jumbo-banner {
+        margin: 25px;
+    }
+
+    .introduction .jumbo-banner p {
+        font-family: "Montserrat";
+        font-size: 42px;
+        text-align: center;
+        line-height: 3.5rem;
+    }
+
+    .introduction .platform {
+        width: 100%;
+        padding-bottom: 3em;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .introduction .platform img {
+        top: 25px;
+        position: absolute;
+        width: 250%;
+        height: 100%;
+        animation: slide 25s linear infinite;
+    }
+
+    /* Animation for sliding to-and-fro */
+    @keyframes slide {
+        0% {
+            left: 0; /* Start at the original position */
+        }
+        50% {
+            left: -100%; /* Slide to the left by 100% */
+        }
+        100% {
+            left: 0; /* Return to the original position */
+        }
+    }
+
+    .introduction .divider {
+        width: 100%;
+    }
+
+    .introduction .counter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .introduction .counter .count {
+        margin-top: 30px;
+    }
+
+    .introduction .counter .count h3 {
+        font-size: 52px;
+    }
+
+    .introduction .counter .count p {
+        font-size: 24px;
+    }
+
+    .introduction .about {
+        flex-direction: column;
+    }
+
+    .introduction .about .icon {
+        width: 70%;
+    }
+
+    .introduction .about .about-text {
+        margin: 30px;
+        margin-top: 40px;
+    }
 }

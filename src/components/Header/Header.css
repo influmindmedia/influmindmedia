@@ -1,4 +1,3 @@
-
 .header {
     display: flex;
     margin: 0 auto;
@@ -53,4 +52,16 @@
 .header .right-section .contact-button:hover {
     cursor: pointer;
     box-shadow: 0 0 10px 3px rgba(11, 207, 131, 0.8);
+}
+
+/* Styles for extra small devices */
+@media (max-width: 576px) {
+    .header .left-section .influmind-logo {
+        width: 13rem;
+        margin: 5px 15px;
+    }
+
+    .header .right-section {
+        display: none;
+    }
 }
